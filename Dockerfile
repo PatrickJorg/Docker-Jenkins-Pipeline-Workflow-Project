@@ -1,5 +1,5 @@
 # Set OpenJDK 11 as the base image
-FROM openjdk:11
+FROM openjdk:11-jdk-slim
 
 # Set /app as the working directory for Docker
 WORKDIR /app
